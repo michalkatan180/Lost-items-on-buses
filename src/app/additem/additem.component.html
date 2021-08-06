@@ -1,0 +1,31 @@
+ <form [formGroup]="myForm" (ngSubmit)="save()" id="f">
+     <br><b>Add new Item:</b>
+    <br> <br>
+    
+   <label>
+        Description:
+        <input formControlName="description" type="text" />
+    </label><br><br>
+
+    <label>
+        Category:
+        <select formControlName="category">
+            <option *ngFor="let c of categories" [value]="c.id">{{c.name}}</option>
+        </select>
+    </label><br>
+
+    <label>
+        Found on line:
+        <input formControlName="line" type="number" />
+    </label><br>
+    
+    <label>
+        Phone number for further inquiries:
+        <input formControlName="phone" type="text" />
+    </label><br>
+
+    <label>
+        <button type="submit" value="save"  [disabled]="!myForm.valid">Add</button>
+    </label><br><br>
+
+</form> 

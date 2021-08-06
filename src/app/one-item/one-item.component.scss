@@ -1,0 +1,20 @@
+tr,td{
+    font-size: 3.3vh;
+    border-collapse: collapse;
+ }
+ tr{   
+    margin-top: 0vh;
+    margin-bottom: 0.5vh;       
+    margin-left: 20vw;
+    width: 60vw;
+    border: 1px solid;
+    display: block; 
+}
+td{
+    text-align: left;
+    vertical-align: bottom;
+    width: 20vw;  
+    font-size: 2vh;
+    padding-left:2.5vw;
+
+}

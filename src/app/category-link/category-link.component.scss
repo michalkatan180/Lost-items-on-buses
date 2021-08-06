@@ -1,0 +1,27 @@
+*{
+display: inline-block;
+}
+
+a{
+    color: black  !important;
+text-decoration: none;    cursor: pointer;
+}
+a:hover{
+    color:white  !important;
+}
+.categoryLink{
+    display: inline-block;
+    text-align: center;
+    font-size:3vh;
+    margin: 2.8vw;
+    border:black  2px solid;
+    background-color: white ;
+    padding-right: 1.6vw;
+    padding-left: 1.6vw;
+    display: inline-block;     
+}
+.categoryLink:hover {
+    color: white;     
+    background-color:black;
+}
+  
