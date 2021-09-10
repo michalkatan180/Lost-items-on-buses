@@ -4,7 +4,7 @@ export class Category {
     color:string;
     constructor(name: string, id: number,color:string) {
         this.name = name;
-        this.id  = id;
+        this.id = id;
         this.color=color;
     }
 }
